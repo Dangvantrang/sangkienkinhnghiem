@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bố cục trang web</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Phần đầu */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Phần điều hướng */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Phần body */
+        .container {
+            display: flex;
+            min-height: 300px;
+        }
+
+        .left, .right {
+            width: 20%;
+            background-color: #f1f1f1;
+        }
+
+        .main {
+            width: 60%;
+            background-color: #ddd;
+        }
+
+        /* Phần chân */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Phần Đầu</h1>
+    </header>
+
+    <nav>
+        Phần Điều Hướng
+    </nav>
+
+    <div class="container">
+        <div class="left">
+            Body trái (20%)
+        </div>
+
+        <div class="main">
+            Body giữa (60%)
+        </div>
+
+        <div class="right">
+            Body phải (20%)
+        </div>
+    </div>
+
+    <footer>
+        Phần Chân
+    </footer>
+
+</body>
+</html>
